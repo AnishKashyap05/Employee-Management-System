@@ -31,4 +31,4 @@ jobs:
 
       # Build with Maven from the employee-management-api directory
       - name: Build with Maven
-        run: mvn -f employee-management-api/pom.xml clean install
+        run: mvn -f employee-system-api/pom.xml clean install
