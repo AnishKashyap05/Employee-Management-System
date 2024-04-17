@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Change directory to employee-management-api
-        run: cd employee-management-api
+        run: cd employee-system-api
       - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
