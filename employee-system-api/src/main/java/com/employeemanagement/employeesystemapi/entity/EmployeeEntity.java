@@ -25,4 +25,12 @@ public class EmployeeEntity {
     @Column(name = "emailId")
     public String emailId;
 
+    public EmployeeEntity(int id, String firstName, String lastName, String emailId) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.emailId = emailId;
+    }
+
+    public EmployeeEntity(){ }
 }
